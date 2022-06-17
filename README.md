@@ -8,7 +8,7 @@ This project was created to be a backend database for a company starting to beco
 
 When combined with a well designed and fully functional front end, this project can be the first step into the ecommerce world.
 
-To see the back end in action, please [click here]() to see the video demo utilizing insomnia core.
+To see the back end in action, please [click here](https://www.youtube.com/watch?v=RqEbUmadpY0) to see the video demo utilizing insomnia core.
 
 ## Table of Contents
 
@@ -63,7 +63,13 @@ In order to use this backend and see all products/tags/categories, create new pr
 
 If you haven't already, please see my demonstration video linked in the description above in order to see it in action.
 
-[Click here]() to see the video.
+[Click here](https://www.youtube.com/watch?v=RqEbUmadpY0) to see the video.
+
+## Contributing
+
+If you would like to contribute to this project, please follow the guide lines set in the eslintrc.json
+
+Thank you.
 
 
 ## Questions
