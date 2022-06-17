@@ -10,7 +10,8 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
     include: {
       model: Product,
-      attributes: ["id", "product_name", "price", "stock", "category_id"]
+      attributes: ["id", "product_name", "price", "stock", "category_id"],
+      through: ProductTag
     }
   });
   res.status(200).json(tagData);
@@ -28,7 +29,8 @@ router.get('/:id', async (req, res) => {
     // be sure to include its associated Product data
         include: {
           model: Product,
-          attributes: ["id", "product_name", "price", "stock", "category_id"]
+          attributes: ["id", "product_name", "price", "stock", "category_id"],
+          through: ProductTag
         }
       });
       res.status(200).json(tagData);
